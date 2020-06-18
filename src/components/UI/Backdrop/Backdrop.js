@@ -1,7 +1,9 @@
-import React from 'react',
+import React from 'react';
+
+import classes from './Backdrop.module.css'
 
 const backdrop = (props) => (
-    props.show ? <div></div> : null
+    props.show ? <div className={classes.Backdrop}></div> : null
 );
 
 export default backdrop
