@@ -11,7 +11,9 @@
         box-sizing: border-box;
         display: block;
     }
-    .NavigationItem a:hover, .NavigationItem a:active, .NavigationItem a.active {
+    .NavigationItem a:hover, 
+    .NavigationItem a:active, 
+    .NavigationItem a.active {
         color: #40a4c8;
     }
     @media (min-width: 500px) {
@@ -27,7 +29,9 @@
             height: 100%;
             padding: 16px 10 px;
         }
-        .NavigationItem a:hover, .NavigationItem a:active, .NavigationItem a.active {
+        .NavigationItem a:hover, 
+        .NavigationItem a:active, 
+        .NavigationItem a.active {
             color: #40a4c8;
         }
     }
